@@ -82,7 +82,7 @@ extension PagingCollectionView: UICollectionViewDataSource {
     
 }
 
-// MARK: - UICollectionView DataSource
+// MARK: - UICollectionView Delegate
 extension PagingCollectionView: UICollectionViewDelegate {
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
